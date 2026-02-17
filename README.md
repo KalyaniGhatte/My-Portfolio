@@ -1,2 +1,2 @@
 # My-Portfolio
-My personal portfolio website
+This is my personal portfolio website developed using HTML, CSS, and JavaScript. It showcases my educational background, technical skills, and academic projects in a clean and responsive layout. The website includes interactive features such as smooth scrolling, animations, and a contact form with validation. It is designed to work on all devices including mobile, tablet, and desktop. This project helped me improve my front-end development and UI/UX design skills.
