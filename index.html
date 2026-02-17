@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button onclick="toggleMode()">🌙 Dark Mode</button>
+<header class="hero">
+  <h1 id="type"></h1>
+  <h3>B.E. – Information Technology(2022-2026)</h3>
+  <h4>Sant Gadge Baba Amravati University</h4>
+  <h3>Diploma in Computer Engineering</h3>
+  <p>Aspiring Software Engineer | AI & IoT Enthusiast</p>
+
+  <a href="#contact" class="btn">Contact Me</a>
+  <a href="resume.pdf" class="btn">Download Resume</a>
+</header>
+
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Motivated final-year BE Information Technology student with expertise in programming languages, software development, and data structures. Proficient in Python, Java, HTML, CSS, and JavaScript. Experienced in working with MySQL databases. Passionate about cybersecurity and AI/ML. Eager to apply problem-solving skills and technical expertise in real-world projects. Demonstrates strong communication and teamwork abilities.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>MySQL</li>
+  </ul>
+</section>
+<section class="fade"></section>
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="card">
+    <h3>Smart Simulation Of Traffic Signal Management System</h3>
+    <p>Simulation Based Traffic Management System</p>
+  </div>
+  <div class="card">
+    <h3>Coaching Class Website</h3>
+    <p>Dynamic website for a coaching class</p>
+    </div>
+  <div class="card">
+    <h3>Music Player Application</h3>
+    <p>Implemented user-friendly UI/UX for seamless audio playback</p>
+  </div>
+</section>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <textarea id="msg" placeholder="Message"></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
